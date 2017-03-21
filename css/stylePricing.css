@@ -1,0 +1,395 @@
+/*БЛОК PRICING PLAN*/
+.wrapper {
+	max-width: 1350px;
+	margin: 0 auto;
+	background: #f3f3f3;
+}
+.left-sidebar {
+	width: 16%;
+	min-height: 2305px;
+	border-right: 1px solid #a7a7a7;
+	float: left;
+}
+.logo {
+	width: 84%;
+	margin-left: 215px;
+}
+.logo h3 {
+	font-size: 2.143em;
+	color:#333333;
+	font-weight: bold;
+	padding: 100px 0px 26px 97px;
+}
+.logo img {
+	padding: 0px 0px 100px 97px;
+}
+.menu {
+	width: 84%;
+	margin-left: 215px;
+}
+.left {
+	background: #fff;
+	width: 39%;
+	margin-bottom: 8.8%;
+	margin-left: 8.4%;
+	box-sizing: border-box;
+	padding: 50px 32px 50px 32px;
+	z-index: 2;
+	display: inline-block;
+}
+.right {
+	background: #fff;
+	width: 39%;
+	float: right;
+	margin: 0% 10.5% 8.8% 2.5%;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 50px 32px 50px 32px;
+}
+.left h4 {
+	font-size: 1.714em;
+	padding-bottom: 50px;
+	color: #4c4c4c;
+	
+}
+.left h4 span {
+	color: #3971ff;
+	font-weight: bold;
+}
+.right h4{
+	font-size: 1.714em;
+	padding-bottom: 50px;
+	color: #4c4c4c;
+}
+.right h4 span {
+	color: #3971ff;
+	font-weight: bold;
+}
+.left p {
+	font-size: 1.000em;
+	line-height: 1.5;
+}
+.right p {
+	font-size: 1.000em;
+	line-height: 1.5;
+}
+.parag {
+	padding-bottom: 53px;
+	color: #5d5d5d;
+}
+.h5left {
+	display: inline-block;
+	font-size: 1.000em;
+	color: color: #5d5d5d;;
+} 
+.h5right {
+	display: inline-block;
+	float: right;
+	font-size: 1.000em;
+	color: color: #5d5d5d;;
+}
+.inline {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #a7a7a7;
+}
+.inline1 {
+	padding: 24px 0px 30px 0px;
+	border-bottom: 1px solid #a7a7a7;
+}
+.inline2 {
+	padding: 26px 0px 50px 0px;
+}
+.RegisterNow {
+	padding-bottom: 15px;
+	font-weight: bold;
+	color: #3971ff;
+	font-size: 1.000em;
+	text-align: center;
+}
+.blue-short {
+	width: 11.2%;
+	border-bottom: 2px solid #3971ff;
+	margin-left: 144px;
+	clear: both;
+}
+
+/*Медиазапросы блок PRICING PLAN*/
+@media (min-width: 769px) and (max-width: 1024px) {}
+@media (min-width: 481px) and (max-width: 768px){
+	.left-sidebar {
+		display: none;
+	}
+	.logo {
+		margin: 0 auto;
+	}
+	.menu {
+		margin: 0 auto;
+	}
+}
+@media (max-width: 480px) {
+	.left-sidebar {
+		display: none;
+	}
+	.logo {
+		margin: 0;
+	}
+	.logo h3 {
+	font-size: 1.3em;
+	color:#333333;
+	font-weight: bold;
+	padding: 30px 0px 50px 25px;
+}
+	.menu {
+		margin: 0 auto;
+	}
+	.menu {
+	width: 100%;
+	margin-left: 10px;
+}
+.left {
+	background: #fff;
+	width: 39%;
+	margin-bottom: 8.8%;
+	margin-left: 6.4%;
+	box-sizing: border-box;
+	text-align: justify;
+	padding: 5px;
+	z-index: 5;
+	display: inline-block;
+}
+.right {
+	background: #fff;
+	width: 39%;
+	float: right;
+	margin: 0% 10.5% 8.8% 2.5%;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 5px;
+}
+.left h4 {
+	font-size: 1.1em;
+	padding-bottom: 20px;
+	color: #4c4c4c;
+	
+}
+.left h4 span {
+	color: #3971ff;
+	font-weight: bold;
+}
+.right h4{
+	font-size: 1.1em;
+	padding-bottom: 20px;
+	color: #4c4c4c;
+}
+.right h4 span {
+	color: #3971ff;
+	font-weight: bold;
+}
+.left p {
+	font-size: 1.000em;
+	line-height: 1.1;
+}
+.right p {
+	font-size: 1.000em;
+	line-height: 1.1;
+}
+.parag {
+	padding-bottom: 25px;
+	color: #5d5d5d;
+}
+.h5left {
+	display: inline-block;
+	font-size: 0.813em;
+	color: color: #5d5d5d;;
+} 
+.h5right {
+	display: inline-block;
+	float: right;
+	font-size: 0.813em;
+	color: color: #5d5d5d;;
+}
+.inline {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #a7a7a7;
+}
+.inline1 {
+	padding: 10px 0px 10px 0px;
+	border-bottom: 1px solid #a7a7a7;
+}
+.inline2 {
+	padding: 10px 0px 15px 0px;
+}
+.RegisterNow {
+	padding-bottom: 10px;
+	font-weight: bold;
+	color: #3971ff;
+	font-size: 0.813em;
+	text-align: center;
+}
+.blue-short {
+	width: 11.2%;
+	border-bottom: 2px solid #3971ff;
+	margin-left: 3px;
+	clear: both;
+}
+}
+
+
+/*БЛОК CliENT FEEDBACK*/
+
+.logo1 {
+	width: 84%;
+	margin-left: 215px;
+	background-image: url(../images/backgroundIMG.gif);
+}
+.logo1 h3 {
+	font-size: 2.143em;
+	color:#333333;
+	font-weight: bold;
+	padding: 100px 0px 26px 97px;
+}
+
+.logo1 .linea_kruchog {
+	padding: 0px 0px 80px 97px;
+}
+
+.fotos3 {
+	width: 30.4%;
+	margin: 0 auto;
+}
+.img2 {
+	margin: 0px 28px -14px 28px;
+}
+.hunaed {
+	width: 80%;
+	margin: 50px 0px 0px 102px;
+	padding-bottom: 70px;
+}
+.hunaed h4 {
+	padding: 0px 0px 23px 375px;
+	font-size: 1.500em;
+	color: #5c5c5c;
+}
+.span0 {
+	padding: 0px 0px 55px 355px;
+	font-size: 1.000em;
+	color: #6d6d6d;
+}
+.span0 span {
+	color: #3971ff;
+}
+.paragLast {
+	text-align: center;
+	line-height: 1.5;
+	color: #6d6d6d;
+}
+
+/*Медиазапросы БЛОК CliENT'S FEEDBACK*/
+@media (min-width: 769px) and (max-width: 1024px) {}
+@media (min-width: 481px) and (max-width: 768px){
+	.left-sidebar {
+		display: none;
+	}
+	.logo1 {
+	width: 84%;
+	margin: 0 auto;
+	/*background-image: url(../images/backgroundIMG.gif);*/
+}
+h3 {
+	font-size: 2.143em;
+	color:#333333;
+	font-weight: bold;
+	padding: 70px 0px 80px 97px;
+}
+.fotos3 {
+	width: 31.4%;
+	margin: 0 auto
+}
+.img1 {
+	margin: -4px 0px -25px -65px;
+}
+.img2 {
+	margin: -136px 0px -28px 27px;
+}
+.img3 {
+	margin: -95px 0px -9px 194px;
+}
+.hunaed {
+	width: 80%;
+	margin: 30px 0px 0px 55px;
+	padding-bottom: 50px;
+}
+.hunaed h4 {
+	padding: 0px 0px 10px 150px;
+	font-size: 1.500em;
+	color: #5c5c5c;
+}
+.span0 {
+	padding: 0px 0px 30px 130px;
+	font-size: 1.000em;
+	color: #6d6d6d;
+}
+.span0 span {
+	color: #3971ff;
+}
+.paragLast {
+	text-align: center;
+	line-height: 1.1;
+	color: #6d6d6d;
+}	
+}
+
+@media (max-width: 480px) {
+	.left-sidebar {
+		display: none;
+	}
+	.logo1 {
+	width: 84%;
+	margin: 0 auto;
+	border-top: 3px solid #000;
+	/*background-image: url(../images/backgroundIMG.gif);*/
+}
+ .logo1 h3 {
+	font-size: 1.1em;
+	color:#333333;
+	font-weight: bold;
+	padding: 30px 0px 50px 25px;
+}
+.fotos3 {
+	width: 30.4%;
+	margin: 0;
+}
+.img1 {
+	margin-left: 5px;
+}
+.img2 {
+	margin-left: 120px;
+}
+.img3 {
+	margin: 10px 0px 0px 5px;
+}
+.hunaed {
+	width: 80%;
+	margin: 20px auto;
+	padding-bottom: 20px;
+}
+.hunaed h4 {
+	padding: 0px 0px 10px 0px;
+	font-size: 1.1em;
+	color: #5c5c5c;
+}
+.span0 {
+	padding: 0px 0px 20px 0px;
+	font-size: 16px;
+	color: #6d6d6d;
+}
+.span0 span {
+	color: #3971ff;
+}
+.paragLast {
+	text-align: left;
+	line-height: 1.1;
+	color: #6d6d6d;
+}
+	
+}
