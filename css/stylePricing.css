@@ -80,13 +80,13 @@
 .h5left {
 	display: inline-block;
 	font-size: 1.000em;
-	color: color: #5d5d5d;;
+	color: #4c4c4c;
 } 
 .h5right {
 	display: inline-block;
 	float: right;
 	font-size: 1.000em;
-	color: color: #5d5d5d;;
+	color: #4c4c4c;
 }
 .inline {
 	padding-bottom: 30px;
@@ -137,7 +137,10 @@
 	font-size: 1.3em;
 	color:#333333;
 	font-weight: bold;
-	padding: 30px 0px 50px 25px;
+	padding: 30px 0px 30px 25px;
+}
+.logo .linea_kruchog {
+	padding: 0px 0px 30px 25px;
 }
 	.menu {
 		margin: 0 auto;
@@ -353,7 +356,10 @@ h3 {
 	font-size: 1.1em;
 	color:#333333;
 	font-weight: bold;
-	padding: 30px 0px 50px 25px;
+	padding: 30px 0px 30px 25px;
+}
+.logo1 .linea_kruchog {
+	padding: 0px 0px 20px 25px;
 }
 .fotos3 {
 	width: 30.4%;
@@ -390,6 +396,226 @@ h3 {
 	text-align: left;
 	line-height: 1.1;
 	color: #6d6d6d;
+}	
 }
-	
+
+
+
+/*Footer block*/
+footer {
+	display: flex;
+	flex-flow: row wrap;
+	width: 83%;
+	margin-left: 215px;
+	background: #f3f3f3;
+	padding-bottom: 60px;
+}
+.say_hello {
+	flex: 2 2 1135px;
+}
+.say_hello h3 {
+	font-size: 2.143em;
+	color:#333333;
+	font-weight: bold;
+	padding: 100px 0px 26px 97px;
+}
+.say_hello .linea_kruchog {
+	padding: 0px 0px 80px 97px;
+}
+.contact {
+	flex: 1 1 260px;
+	margin-left: 97px;
+}
+.contact_left {
+	width: 260px;
+	margin: 0px 0px 95px 0px;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-end;
+}
+.contact_left img {
+	padding-right: 35px;
+}
+.contact_left h4 {
+	font-size: 1.500em;
+	color: #4c4c4c;
+}
+.contact_left p {
+	padding-top: 25px;
+	line-height: 1.5;
+	color: #4c4c4c;
+}
+.footer_nav {
+	width: 270px;
+}
+.footer_nav img {
+	padding-right: 40px;
+}
+.forms {
+	flex: 1 1 520px;
+	margin: 0px 120px 0px 100px;
+	padding: 0px 0px 0px 0px;
+}
+.Your_Name p {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #3971ff;
+	color: #4c4c4c;
+}
+.Your_Email {
+	margin-top: 50px;
+}
+.Your_Email p {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #000;
+	color: #a7a7a7;
+}
+.Interested {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: flex-end;
+	margin-top: 48px;
+	color: #a7a7a7;
+}
+.Interested img {
+	margin-left: 320px;
+}
+.Type_Message {
+	margin-top: 20px;
+}
+.Type_Message p {
+	padding: 40px 0px 90px 0px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	color: #a7a7a7;
+}
+.Lets_Talk {
+	margin-top: 38px;
+	color: #3971ff;
+	font-weight: bold;
+}
+#blueLine {
+	border-bottom: 3px solid #3971ff;
+	width: 50px;
+	padding-top: 15px;
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+	.left-sidebar {
+		display: none;
+	}
+	footer {
+		margin: 0 auto; 
+	}
+}
+@media (min-width: 481px) and (max-width: 768px) {
+	.left-sidebar {
+		display: none;
+	}
+	footer {
+		margin: 0 auto; 
+	}
+}
+@media (max-width: 480px) {
+	.left-sidebar {
+		display: none;
+	}
+	footer {
+	display: flex;
+	flex-flow: row wrap;
+	width: 83%;
+	margin: 15px auto;
+	border-top: 3px solid #000;
+	background: #f3f3f3;
+	padding-bottom: 30px;
+}
+.say_hello {
+	flex: 2 2 1135px;
+}
+.say_hello h3 {
+	font-size: 1.1em;;
+	color:#333333;
+	font-weight: bold;
+	padding: 50px 0px 26px 10px;
+}
+.say_hello .linea_kruchog {
+	padding: 0px 0px 30px 10px;
+}
+.contact {
+	flex: 1 1 260px;
+	margin: 10px 0px 0px 15px;
+	order: 2;
+}
+.contact_left {
+	width: 260px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-end;
+}
+.contact_left img {
+	padding-right: 35px;
+}
+.contact_left h4 {
+	font-size: 1.1em;
+	color: #4c4c4c;
+}
+.contact_left p {
+	padding-top: 15px;
+	line-height: 1.5;
+	color: #4c4c4c;
+}
+.footer_nav {
+	width: 270px;
+}
+.footer_nav img {
+	padding-right: 25px;
+}
+.forms {
+	flex: 1 1 520px;
+	margin: 0px 0px 40px 10px;
+	order: 1;
+}
+.Your_Name p {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #3971ff;
+	color: #4c4c4c;
+}
+.Your_Email {
+	margin-top: 30px;
+}
+.Your_Email p {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #000;
+	color: #a7a7a7;
+}
+.Interested {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: flex-end;
+	margin-top: 28px;
+	color: #a7a7a7;
+}
+.Interested img {
+	margin-left: 150px;
+}
+.Type_Message {
+	margin-top: 20px;
+}
+.Type_Message p {
+	padding: 30px 0px 50px 0px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	color: #a7a7a7;
+}
+.Lets_Talk {
+	margin-top: 38px;
+	color: #3971ff;
+	font-weight: bold;
+}
+#blueLine {
+	border-bottom: 3px solid #3971ff;
+	width: 50px;
+	padding-top: 5px;
+}
 }
